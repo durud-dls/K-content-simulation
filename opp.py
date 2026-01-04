@@ -114,6 +114,8 @@ with tab2:
     
     # Waterfall 차트 로직
     bottoms = [0, revenue, revenue+fee, revenue+fee+marketing, 0]
+    
+    # 이 부분을 복사해서 붙여넣으세요! (매출=초록, 비용=빨강, 이익=파랑)
     colors =
     
     bars = ax2.bar(categories, values, bottom=bottoms, color=colors, edgecolor='black', alpha=0.8)
